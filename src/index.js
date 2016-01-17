@@ -1,7 +1,7 @@
 import d from 'debug';
 import fs from 'fs';
 import path from 'path';
-import Instrumenter from './lib/instrumenter';
+import Instrumenter from './instrumenter';
 const debug = d('app');
 
 export default function (files) {
