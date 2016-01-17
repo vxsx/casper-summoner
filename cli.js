@@ -6,5 +6,5 @@ var instrument = require('./index')['default'];
 if (argv._ && argv._.length) {
     instrument(argv._);
 } else {
-    console.log('Usage: casper-summon file.js [file2.js..]'); // eslint-disable-line
+    console.log('Usage: casper-summoner file.js [file2.js..]\nDoes not support globs!'); // eslint-disable-line
 }
