@@ -1,7 +1,8 @@
 #!/usr/bin/env node
-require('babel-register');
-var argv = require('minimist')(process.argv.slice(2));
-var instrument = require('./index')['default'];
+import minimist from 'minimist';
+import instrument from './index';
+
+const argv = minimist(process.argv.slice(2));
 
 if (argv._ && argv._.length) {
     instrument(argv._);
