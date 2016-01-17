@@ -1,6 +1,6 @@
 {
   "name": "casper-summoner",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Code instrumenter to create screenshots of Casper.js test files",
   "main": "index.js",
   "bin": {
